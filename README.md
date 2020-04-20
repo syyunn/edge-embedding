@@ -32,3 +32,8 @@ signed networks, or relation types in knowledge graphs."
 ## Edge Annotation Techniques
 1. SNE [18] presents a logbilinear model that incorporates two vectors to capture the positive
 or negative relationships between nodes respectively.
+
+2. y. TransR [9]
+learns a projection matrix for each relation type in knowledge graph,
+which is used for projecting entity embeddings from entity space
+to relation space.
