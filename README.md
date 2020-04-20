@@ -20,3 +20,11 @@ sometimes extended to consider the co-occurrences between nodes
 ##### Goal
 1. Let we can search through our interested edge relations with semantic query which represented a bit differently. Trained with few words annotation, but finally become to be able to query "edges::to boost the political activity" 
 2. Also we need to let node embedding learned better by leveraging the edge labels
+"There are also a number of methods that utilize edge labels
+for learning better node representations. SNE [18] presents a logbilinear model that incorporates two vectors to capture the positive
+or negative relationships between nodes respectively. TransR [9]
+learns a projection matrix for each relation type in knowledge graph,
+which is used for projecting entity embeddings from entity space
+to relation space. These work generally assume that each edge is
+associated with a single type of label: it could be the sign of edges in
+signed networks, or relation types in knowledge graphs."
