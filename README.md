@@ -30,10 +30,14 @@ associated with a single type of label: it could be the sign of edges in
 signed networks, or relation types in knowledge graphs."
 
 ## Edge Annotation Techniques
-1. SNE [18] presents a logbilinear model that incorporates two vectors to capture the positive
+0. Assuming Edges are associated with a single type of label
+0-1. SNE [18] presents a logbilinear model that incorporates two vectors to capture the positive
 or negative relationships between nodes respectively.
 
-2. y. TransR [9]
+0-2. y. TransR [9]
 learns a projection matrix for each relation type in knowledge graph,
 which is used for projecting entity embeddings from entity space
 to relation space.
+
+1. Assuming Edges are associated with a multi type of label
+Enhanced Network Embeddings via Exploiting Edge Labels
