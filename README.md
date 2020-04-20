@@ -28,3 +28,7 @@ which is used for projecting entity embeddings from entity space
 to relation space. These work generally assume that each edge is
 associated with a single type of label: it could be the sign of edges in
 signed networks, or relation types in knowledge graphs."
+
+## Edge Annotation Techniques
+1. SNE [18] presents a logbilinear model that incorporates two vectors to capture the positive
+or negative relationships between nodes respectively.
