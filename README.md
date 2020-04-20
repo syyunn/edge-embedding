@@ -18,4 +18,5 @@ the objective of many network embedding algorithms is to predict
 the existence of edge between two nodes [14]. This objective is
 sometimes extended to consider the co-occurrences between nodes
 ##### Goal
-Let we can search through our interested edge relations with semantic query which represented a bit differently. Trained with few words annotation, but finally become to be able to query "edges::to boost the political activity" 
+1. Let we can search through our interested edge relations with semantic query which represented a bit differently. Trained with few words annotation, but finally become to be able to query "edges::to boost the political activity" 
+2. Also we need to let node embedding learned better by leveraging the edge labels
